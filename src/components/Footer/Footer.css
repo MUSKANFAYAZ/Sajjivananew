@@ -1,0 +1,157 @@
+.footer {
+  background: linear-gradient(135deg, #F5F5F5 0%, #FAFAFA 50%, #F0F0F0 100%);
+  color: #5D4037;
+  margin-top: 4rem;
+}
+
+.footer-container {
+  max-width: 1430px;
+  margin: 0 auto;
+  padding: 3rem 2rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  position: relative;
+  left: 5%;
+  right: 0;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 1rem;
+  color: #8D6E63;
+}
+
+.footer-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+}
+
+.footer-description {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+  color: #8D6E63;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-link {
+  background: rgba(188, 170, 164, 0.2);
+  color: #8D6E63;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  background: #BCAAA4;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  color: #8D6E63;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  opacity: 0.9;
+}
+
+.footer-links a:hover {
+  color: #BCAAA4;
+  opacity: 1;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  opacity: 0.9;
+  color: #8D6E63;
+}
+
+.contact-item svg {
+  color: #BCAAA4;
+  flex-shrink: 0;
+}
+
+.footer-bottom {
+  background: rgba(188, 170, 164, 0.1);
+  padding: 1.5rem 0;
+  border-top: 1px solid rgba(188, 170, 164, 0.2);
+}
+
+.footer-bottom-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+  opacity: 0.8;
+  color: #8D6E63;
+}
+
+.footer-bottom-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-bottom-links a {
+  color: #8D6E63;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.footer-bottom-links a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem 1rem;
+    gap: 1.5rem;
+  }
+
+  .footer-bottom-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .footer-bottom-links {
+    gap: 1rem;
+  }
+} 
