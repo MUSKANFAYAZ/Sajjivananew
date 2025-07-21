@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="nav-container">
         <div className="nav-brand">
           <Link to="/" className="nav-logo">
-            Saajivana
+            Sajjivana
           </Link>
         </div>
 
