@@ -60,7 +60,7 @@ const About = () => {
       <section className="about-hero">
         <div className="container">
           <div className="hero-content">
-            <h1>About Saajivana</h1>
+            <h1>About Sajjivana</h1>
             <p>Connecting traditional artisans with modern consumers, one handcrafted piece at a time.</p>
           </div>
         </div>
